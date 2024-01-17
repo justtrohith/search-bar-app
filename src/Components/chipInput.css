@@ -1,0 +1,93 @@
+.chip-input {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 50px;
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.chip {
+    display: flex;
+    align-items: center;
+    margin: 5px 5px 5px 0;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 15px;
+    font-size: 14px;
+    max-width: calc(25% - 10px); /* Adjust width for 3-4 chips per row */
+}
+
+.input-container input {
+    flex-grow: 1;
+    border: none;
+    padding: 8px;
+    margin: 2px 5px;
+    outline: none;
+    font-size: 16px;
+    min-width: 100px; /* Minimum width for input field */
+}
+
+.chip span {
+    display: inline-block;
+    margin-left: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px; /* Larger 'X' for clarity */
+}
+
+.chip:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+
+.input-container input:focus {
+    border-bottom: 2px solid #007bff;
+}
+
+.dropdown {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    width: calc(100% - 20px);
+    max-height: 150px;
+    overflow-y: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+    left: 10px;
+}
+
+.dropdown div {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.dropdown div:hover {
+    background-color: #f1f1f1;
+}
+
+
+.input_2 {
+
+    background-color: #f9f9f9;
+}
+
+
+.user_img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
